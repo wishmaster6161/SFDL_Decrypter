@@ -19,3 +19,5 @@ Entsprechende Powershell Erweiterung installieren: "Install-Module -Name PS2EXE 
 
 In diesem Verzeichnis folgenden Befehl ausführen: "Invoke-PS2EXE -InputFile "SFDLDecrypter.ps1" -OutputFile "SFDLDecrypter.exe" -NoConsole"
 
+
+Wer Anmerkungen oder Optimierungswünsche hat, darf sich gerne bei mir melden und mitwirken.
