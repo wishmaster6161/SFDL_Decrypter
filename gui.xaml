@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="SFDL Decrypter" Height="550" Width="640" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        AllowDrop="True">
+    <Grid Margin="10">
+        <TextBlock Text="SFDL Datei:" VerticalAlignment="Top" Margin="0,10,0,0"/>
+        <TextBox Name="InputBox" Margin="0,30,100,0" Height="25" VerticalAlignment="Top"/>
+        <Button Name="BrowseButton" Content="Durchsuchen" Width="80" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,30,0,0"/>
+
+        <TextBlock Text="Passwort:" VerticalAlignment="Top" Margin="0,65,0,0"/>
+        <PasswordBox Name="PasswordBox" Margin="0,85,0,0" Height="25" VerticalAlignment="Top" />
+
+        <Button Name="DecryptButton" Content="Entschlüsseln" Width="120" Height="35" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,125,0,0"/>
+        
+        <TextBlock Text="Vorschau (entschlüsselt):" Margin="0,160,0,0"/>
+        <TextBox Name="PreviewBox" Margin="0,130,0,0" Height="250" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True"/>
+
+        <TextBlock Name="StatusBlock" Text="Bereit" Margin="0,460,0,0" Foreground="Gray" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="presented by Wishmaster"
+                   Foreground="Gray"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   Margin="0,0,10,10"
+                   FontSize="10"/>
+    </Grid>
+</Window>
